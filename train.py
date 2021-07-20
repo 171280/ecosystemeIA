@@ -15,10 +15,10 @@ import dvc.api
 ################################
 
 # Load in the data
-df = pd.read_csv("wine_quality.csv")
+#df = pd.read_csv("wine_quality.csv")
 #debut ajout
-#data_path = dvc.api.get_url('wine_quality.csv')
-#df = pd.read_csv(data_path)
+data_path = dvc.api.get_url('wine_quality.csv')
+df = pd.read_csv(data_path)
 #fin ajout
 
 # Split into train and test sections
