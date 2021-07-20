@@ -2,8 +2,8 @@ stages:
   train:
     cmd: python train.py
     deps:
-    - wine_quality.csv
     - train.py
+    - wine_quality.csv
     #outs:
     #- output/testing_data.pkl
     #- output/training_data.pkl
